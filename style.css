@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-circle {
+    width: 50px;
+    height: 50px;
+    background-color: blue; background: linear-gradient(135deg, #05121f, #081d94); /* Gradient from blue to light blue */
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.text {
+    background: linear-gradient(135deg, #007bff, #00c6ff); /* Same gradient as the circle */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    position: relative;
+    /* padding-left: 200px; */
+}
+
+.search-input {
+    padding: 10px 40px 10px 40px; /* Add padding for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    /* padding-left: 200px; */
+}
+
+.search-button {
+    padding: 10px 15px;
+    /* margin-left: 200px; */
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: rgb(10, 10, 85);
+}
+/* body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.sidebar {
+height: 70%;
+width: 150px;
+position: fixed;
+top: 122px;
+left: -250px; /* Hide sidebar initially */
+background-color: #333;
+color: white;
+transition: left 0.3s ease;
+padding: 15px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.show-sidebar {
+    left: 0; /* Show sidebar */
+} */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#open-modal-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Could be more or less, depending on screen size */
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#heading2{
+    text-align: center;
+    color: blue;
+    /* margin-bottom: 90px; */
+}
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid black; /* Change color as needed */
+    color: black; /* Change text color as needed */
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    /* position: relative; */
+
+}
+.transparent-button:hover {
+    background-color:black; /* Change hover background color */
+    color: white; /* Change hover text color */
+}

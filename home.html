@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corono Logo with Search Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="logo-circle"></div>
+            <h1 id="text">Corono</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+            <span class="search-icon">🔍</span> <!-- Search icon -->
+            <button style="background-color: rgb(69, 69, 233);" id="open-modal-btn">Add New Blog</button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Input Form</h2>
+                    <form id="input-form">
+                     <label for="input1">Title</label>
+                        <input type="text" id="input1" required> <br>
+                        
+                        <label for="input2">Contant<label>
+                        <input type="text" id="input2" required> <br>
+                    
+                    
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+           <a href="./index.html"> <button class="search-button">Login/Register<span class="arrow">➡</span></button> </a>
+        </div>
+        
+
+    </header>
+    
+    <div>
+        <h1 style="margin-left: 25px;">Thoughts, Ideas, and Stories</h1>
+        <p style="color: rgb(111, 100, 100); " >A space where creativity flows, Ideas takes shape, and stories come to life.Drive in, explore and connect with insightsthat inspire the rasonate </p>
+    </div>
+    <div id="head_2">
+        <h2 id="heading2">Trending Topics</h2><center>
+            <button class="transparent-button">Design Thinking</button>
+            <button class="transparent-button">Technology</button>
+            <button class="transparent-button">Web3</button>
+            <button class="transparent-button">Programming</button>
+            <button class="transparent-button">AI</button></center>
+    </div>
+    
+    <div id="sidebar" class="sidebar">
+        <h2 style="color: blue; margin-left: 35px;">Blog Topics </h2>
+        <ul>
+            Company 
+            Design <br><br>
+            Technology <br><br>
+            Crypto <br><br>
+            Artificial Intelligence <br><br>
+            Work <br>
+        </ui>
+
+        <h2 style="color: blue; margin-right: 32px;">Guide and Tools</h2>
+  
+        <ul style="margin-left: -42px;">
+        Guideline
+        Mentorship <br><br>
+        Tutorial <br><br>
+        Training <br><br>
+        Career <br><br>
+        Self Care <br>
+        </ul>
+    </div>
+    
+    <!-- <div id="main-content" class="main-content">
+         <button id="toggle-btn">Toggle Sidebar</button> -->
+        <!-- <h1>Main Content</h1>
+        <p>This is the main content area.</p> -->
+    -
+    <script src="script.js"></script>
+    </body>
+    </html>
